@@ -1,0 +1,12 @@
+.load-more-btn {
+    margin-bottom: 30px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #11235A;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #F6ECA9;
+    background-color: #596FB7;
+
+}
