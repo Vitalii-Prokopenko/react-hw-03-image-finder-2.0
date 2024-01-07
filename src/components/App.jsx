@@ -68,7 +68,7 @@ class App extends Component {
 
     if (this.state.images !== prevState.images) {
       const scrollOptions = {
-        duration: 500,
+        duration: 1000,
         smooth: true,
       };
       animateScroll.scrollToBottom(scrollOptions);
