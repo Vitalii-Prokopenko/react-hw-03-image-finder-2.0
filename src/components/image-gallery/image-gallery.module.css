@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 10px;
-  grid-auto-rows: auto;
+  grid-auto-rows: 190px;
   row-gap: 10px;
   padding: 80px 20px 20px;
   margin: 0;
@@ -10,9 +10,11 @@
 
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 240px;
   }
 
   @media screen and (min-width: 1201px) {
     grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 210px;
   }
 }

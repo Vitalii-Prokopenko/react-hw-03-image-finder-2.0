@@ -1,33 +1,33 @@
 .searchbar {
-    position: fixed;
-    width: 100%;
-    background-color: #3887BE;
+  position: fixed;
+  width: 100%;
+  background-color: #3887be;
 }
 
 .form {
-        margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 400px;
-    height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60px;
 }
 
 .button {
-    width: 30px;
-    height: 30px;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: #F3EDC8;
-    cursor: pointer;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #f3edc8;
+  cursor: pointer;
 }
 
 .input {
-    width: 370px;
-    height: 30px;
-    margin: 0;
-    padding: 0 5px;
-    border: none;
-    outline: none;
+  width: 370px;
+  height: 30px;
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+  outline: none;
 }
