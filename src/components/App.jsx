@@ -6,6 +6,7 @@ import Loader from 'components/loader/Loader';
 import Modal from 'components/modal/Modal';
 import api from '../services/api';
 import { nanoid } from 'nanoid';
+import { animateScroll } from 'react-scroll';
 
 const IMAGES_PER_PAGE = 12;
 
@@ -60,7 +61,17 @@ class App extends Component {
       
       this.setState(prevState => ({
         images: [...prevState.images, ...fetchedImagesWithId],
-      }));      
+      }));  
+      
+      
+    }
+
+    if (this.state.images !== prevState.images) {
+      const scrollOptions = {
+        duration: 500,
+        smooth: true,
+      };
+      animateScroll.scrollToBottom(scrollOptions);
     }
   }
 
